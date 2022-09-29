@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+body{
+  width: 100%;
+}
+#hamburger-menu{
+  display: none;
+}
+.overlay{
+  display: none;
+}
+#hamburger-input{
+  display: none;
+}
+
+
+
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#incognito_logo{
+  margin-left: 133px;
+
+}
+#incognito_logo img{
+  width: 170px;
+  
+}
+#nav_content{
+  text-align: center;
+}
+#nav_content ul{
+  display: flex;
+  margin-right: 50px;
+
+}
+#nav_content ul li{
+  padding: 30px;
+  list-style: none;
+  
+  
+}
+#nav_content ul li a{
+  font-size: 13px;
+  font-style: normal;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 12.08px;
+  color:#000000;
+  line-height: 100.7%;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+
+#fonding_members{
+  position: relative;
+  padding: 50px;
+  top: -60px;
+
+}
+#fonding_members h3{
+  position: absolute;
+  left: 201px;
+  top: 179px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  line-height: 20.14px;
+  letter-spacing: 6px;
+  font-size: 18px;
+}
+
+
+#Rahul_quote{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 200px;
+  margin-left: 350px;
+  margin-bottom: 100px;
+}
+
+#block_quote{
+  margin: 10px 30px;
+  padding: 25px;
+  box-sizing: border-box;
+  position: absolute;
+  margin-left: 160px;
+
+}
+#double_quote_symbol{
+  font-size: 70px;
+  color: grey
+}
+#blockquote_text{
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0px;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 5px;
+
+}
+#blockquote_credit{
+  position: relative;
+  font-weight: 400;
+  font-style: normal;
+  text-align: right;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 3px;
+  line-height: 19px;
+  font-size: 13px;
+
+}
+
+#fonding_members_names{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.fond_members{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.fond_members h4{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 100.7%;
+  letter-spacing: 2px;
+
+}
+.fond_members img{
+  border-radius: 50%;
+  
+   padding:30px;
+}
+.first_row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.second_row{
+  display: flex;
+  
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+#third_year{
+  margin-bottom: 50px;
+} 
+  
+#third_year h2{
+  position: relative;
+  left: 201px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  line-height: 20.14px;
+  letter-spacing: 6px;
+  font-size: 18px;
+
+} 
+#third_year_members{
+  display: flex;
+  flex-direction: column;
+
+
+}
+#third_year_members img{
+  padding-left: 60px;
+  padding-right: 60px;
+
+} 
+#second_year{
+  margin-bottom: 50px;
+} 
+  
+#second_year h2{
+  position: relative;
+  left: 201px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  line-height: 20.14px;
+  letter-spacing: 6px;
+  font-size: 18px;
+
+} 
+#second_year_members{
+  display: flex;
+  flex-direction: column;
+  
+
+}
+#second_year_members img{
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 138px;
+}
+
+footer{
+  background-color: #FF6D6D;
+  position: relative;
+  height: 150px;
+
+}
+#foot h2{
+position: absolute;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 100.7%;
+letter-spacing: 4px;
+color: #FFFFFF;
+left: 414px;
+top: 30px;
+
+}
+
+#foot ul{
+  display: flex;
+
+}
+#foot ul li{
+  position: relative;
+  padding: 10px;
+  list-style: none;
+  top: 60px;
+  left: 580px;
+  
+  
+}
+

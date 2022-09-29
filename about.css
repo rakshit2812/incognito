@@ -1,0 +1,129 @@
+/*CSS RESET*/
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: quicksand;
+}
+
+/*NAVBAR*/
+@media(min-width: 401px){
+	.left{
+	margin-right: 380px;
+	}
+	.right{
+		margin-top: 30px;
+	}
+	.b2{
+		display: none;
+	}
+	.xnavbar{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 25px;
+		flex-wrap: wrap;
+	}
+	@media(max-width: 1235px){
+		.left{
+			margin: auto;
+		}
+		.xnavbar{
+			flex-direction: column;
+		}
+		#part1{
+			margin: 100px 300px!important;
+		}
+	}
+	.nav{
+		display: flex;
+	}
+	.nav li{
+		list-style: none;
+		padding: 0px 30px;
+	}
+	.nav li a{
+		text-decoration: none;
+		font-family: Quicksand;
+		color: black;
+		font-size: 13px;
+		/*font-weight: 700;*/
+	}
+}
+
+
+
+
+#part1{
+	
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: capitalize;
+	color: #707070;
+	margin: 100px 400px;
+	/*margin: 15vh 70vh;*/
+
+}
+@media(max-width: 920px){
+	#part1{
+		margin: 100px 200px!important;
+	}
+}
+@media(max-width: 700px){
+	.left{
+		display: none;
+	}
+	.nav{
+		flex-wrap: wrap;
+	}
+	#part1{
+		margin: 70px 50px!important;
+	}
+}
+#part2 h1{
+	font-family: 'Quicksand';
+	font-size: 19.5px;
+	padding: 0px 36px;
+	line-height: 272.7%;
+	text-align: center;
+	letter-spacing: 0.2525em;
+	color: #000000;
+}
+
+
+
+@media(max-width: 400px){
+	.xnavbar{
+		display: none;
+	}
+	.x11{
+		font-size: 0.8em!important;
+		margin-left: 1em;
+		color: white !important;
+		font-weight: 700 !important;
+	}
+	.b1{
+		background-color: #ff6d6d;
+		margin-top: 0.8em;
+		border-radius: 15px;
+		/*width: 50%;*/
+	}
+	.b2{
+		padding: 0px 0px !important;
+		margin-top: 1.5em;
+	}
+	.edit {
+    	display: inline-block;
+    	width: 1.5em;
+    	height: 1.5em;
+    	vertical-align: middle;
+    	background-image: url("hr.png");
+    	background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: 100%;
+	}
+
+}

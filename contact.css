@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./Images/Vector\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: top;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (max-width:500px){
+     html,body{
+        overflow-x: hidden;
+        width: 100%;
+     }
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    height: 100px;
+    width: 100%;
+}
+
+.logo{
+    background-image: url(./Images/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: invert(1);
+    object-fit: cover;
+    height: 60px;
+    width: 365px;
+}
+
+.links{
+    display: flex;
+}
+
+@media screen and (max-width: 500px){
+    .links{
+        display: none;
+    }
+    .navbar{
+        justify-content: center;
+    }
+}
+
+.links a{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0;
+    
+}
+
+@media screen and (max-width:500px){
+    .card{
+        margin: 0;
+    }
+}
+
+.card-content{
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .card-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.form{
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+    /* background-color: blueviolet;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;    */
+    padding: 70px 100px; 
+}
+
+@media screen and (max-width: 500px) {
+    .form{
+        width: 300px;
+    }
+}
+
+
+.input{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px 60px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:500px){
+    .input{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.input input{
+    border: none;
+    border-bottom: solid black 2px;
+    font-size: 13px;
+    padding: 5px;
+}
+
+
+
+.input input:focus{
+    outline: none;
+}
+
+.message p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.message textarea{
+    border: solid rgb(161, 159, 159) 1px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    padding: 10px;
+    height: 80px;
+    width: 410px
+}
+
+
+
+.message textarea:focus{
+    outline: none;
+}
+
+@media screen and (max-width:500px){
+    .message textarea{
+      width: 280px;   
+    }
+}
+
+.btn{
+    display: flex;
+}
+
+.gbth{
+    display: none;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 500px){
+    .gbth{
+        display: inline-block;
+    }
+    .btn{
+        justify-content: center;
+    }
+}
+
+.btn button{
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: white;
+    box-shadow: 0px 4px 24px rgb(200, 200, 200);
+    transition: background-color 0.25s cubic-bezier(0.075, 0.82, 0.165, 1), box-shadow 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.btn button:hover{
+    background-color: rgb(174, 174, 174);
+    box-shadow: 0px 4px 24px rgb(201, 139, 139);
+    color: white;
+}
+
+.info {
+    /* display: grid;
+    grid-template-columns: auto;
+    gap: 30px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 30px;
+    background-color: #AA4A4A;
+    color: white;
+    width: 300px;
+}
+
+@media screen and (max-width:500px){
+    .info{
+        margin-top: 90px;
+        width: 70%;
+        border-radius: 0;
+    }
+    .content{
+        gap: 30px!important;
+    }
+}
+
+
+.text{
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 55px;
+    font-weight: bold;
+}
+
+
+.content{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 90px;
+}
+
+.location img{
+    width: 50px;
+    margin-right: 7px;
+}
+
+.phone img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.email img{
+    width: 50px;
+    margin-right: 7px;
+}
+
+
+
+.email,.phone,.location{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    justify-self: flex-end;
+}
